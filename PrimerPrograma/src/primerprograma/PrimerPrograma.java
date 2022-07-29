@@ -16,17 +16,31 @@ public class PrimerPrograma {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        int contador = 0;
+//        int contador = 0;
         
 //        true 0 false
-        System.out.println(contador >= 5);
+//        System.out.println(contador >= 5);
+//        
+//        while(contador < 0){
+//            // ejecuto mi hola mundo            
+//            System.out.println("Hola mundo");
+//            
+//            // le sumo en uno a la variable
+//            contador = contador + 1;
+//        }
+//        
+//        do{
+//            // ejecuto mi hola mundo            
+//            System.out.println("Hola mundo");
+//            
+//            // le sumo en uno a la variable
+//            contador = contador + 1;
+//        }while(contador <= 0);
+
+        int contador;
         
-        while(contador <= 5){
-            // ejecuto mi hola mundo            
-            System.out.println("Hola mundo");
-            
-            // le sumo en uno a la variable
-            contador = contador + 1;
+        for(contador =0 ; contador<5; contador++){
+            System.out.println("Hola Mundo");
         }
         
         System.out.println("fin");
