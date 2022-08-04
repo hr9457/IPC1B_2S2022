@@ -16,7 +16,7 @@ public class Seno {
      * @param args the command line arguments
      */
     
-    
+//     esto es una funcion 
     public static int factorial(int number){
         if ( number == 1){
             return 1;
@@ -30,6 +30,9 @@ public class Seno {
             return factorial;
         }
     }
+//    ********************************************
+    
+    
     
     public static void main(String[] args) {
         // TODO code application logic here
@@ -55,6 +58,8 @@ public class Seno {
             }           
         }
         System.out.println(formula); 
+    
+//        seno(3)/coseno(3)
     }
     
 }
