@@ -18,7 +18,7 @@ public class Clientes {
     
     
     // constructores vacio
-//    Clientes(){}
+    Clientes(){}
     
     // constructor con parametros
     Clientes(int cui, String nombre, String apellido){
