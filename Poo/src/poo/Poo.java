@@ -49,6 +49,13 @@ public class Poo {
 //        String administrador = "administrador";
 //        int pass = 2021032542;
 
+
+        int[] m = new int[2];
+        int[] z = {2,3};
+        
+        Clientes[] listado2 = {new Clientes(), new Clientes()};
+        
+        
         // vector de clases
         Clientes[] listadoClientes = new Clientes[4];
         listadoClientes[0] = new Clientes();
@@ -65,6 +72,9 @@ public class Poo {
                 }
             }
         }
+        
+        listadoClientes[1].AsociarCuenta(1000);
+        listadoClientes[1].verCuentasAsocidas();
         
         
         Login ventana1 = new Login(listadoClientes);
