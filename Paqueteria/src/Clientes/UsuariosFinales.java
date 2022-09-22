@@ -9,8 +9,13 @@ package Clientes;
  * @author joshu
  */
 public class UsuariosFinales extends Persona{
+
+    //constructor
+    public UsuariosFinales(String nombre, int edad, int saldo) {
+        super(nombre, edad, saldo);
+    }
+
+
     
-    
-    UsuariosFinales(){}
     
 }

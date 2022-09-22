@@ -17,12 +17,19 @@ public class Persona {
     private int saldo;
     
     
-    // contructor
+    // contructor sin parametros
     Persona(){}
     
     
-    // funciones y metodos
+    // constructro con parametros
 
+    public Persona(String nombre, int edad, int saldo) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.saldo = saldo;
+    }
+
+    // funciones y metodos
     public String getNombre() {
         return nombre;
     }
